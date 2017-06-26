@@ -1,0 +1,31 @@
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<div id='app'>
+    <h1>hello world</h1>
+    <p>
+        <router-link to='/foo'>go to foo</router-link>
+        <router-link to='/bar'>go to bar</router-link>
+    </p>
+    <router-view></router-view>
+</div>
+<script type="text/javascript">
+const Foo = {
+    template: '<div>foo</div>'
+}
+const Bar = {
+    template: '<div>bar</div>'
+}
+const routes = [{
+    path: '/foo',
+    component: Foo
+}, {
+    path: '/bar',
+    component: Bar
+}]
+const router = new VueRouter({
+    routes
+})
+const app = new Vue({
+    router
+}).$mount('#app')
+</script>

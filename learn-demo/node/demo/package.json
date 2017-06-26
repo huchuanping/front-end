@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huchuanping",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "vue": "^2.1.10"
+  },
+  "devDependencies": {
+    "node": "0.0.0",
+    "sass": "^0.5.0",
+    "vue": "^2.1.10",
+    "webpack": "^2.2.1"
+  }
+}

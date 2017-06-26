@@ -1,0 +1,92 @@
+html{font-size:100px;}
+*{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style: none
+}
+/*flex布局*/
+.flex{display: flex}
+/*水平布局下的子元素水平居中*/
+.flex-center{justify-content: center}
+.flex-right{justify-content: flex-end;}
+
+/*两端对齐*/
+.flex-justify{justify-content:space-between;}
+.flex-1{
+	flex:1;
+}
+.flex-align-items{
+	/*水平布局下的子元素垂直居中*/
+	align-items: center
+}
+
+
+
+/*dispaly:table布局*/
+.ly{
+	display: table;
+	width:100%;
+	font-size:0!important;
+}
+.ly-center{
+	text-align: center
+}
+.ly-right{
+	text-align: right
+}
+.ly-justify{
+	display: block;
+	text-align: justify;
+}
+.ly--justify:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.ly--fill > .ly__item {
+  display: table-cell;
+}
+
+.ly__item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  /* default font size */
+}
+
+.ly__item--fill {
+  width: 100%;
+}
+
+.ly--middle:after {
+  display: inline-block;
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+}
+
+.ly--middle > .ly__item {
+  vertical-align: middle;
+}
+/*clearfix*/
+.clearfix:after{
+	content:'';
+	display: block;
+	clear: both;
+	height:0;
+}
+.clearfix{
+	zoom:1;
+}
+.fl-left{float: left}
+.fl-right{float: right}
+.container{
+	position: relative;
+	width:100%;
+	/*max-width:6.4rem;*/
+	margin:0 auto;
+	font-size: 0.14rem
+}

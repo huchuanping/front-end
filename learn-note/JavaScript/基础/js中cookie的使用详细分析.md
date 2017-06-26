@@ -1,0 +1,2 @@
+# js中cookie的使用详细分析
+cookie 是浏览器的一种机制，它是将documen的cookie

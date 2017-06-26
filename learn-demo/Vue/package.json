@@ -1,0 +1,23 @@
+{
+  "name": "vuedemo",
+  "version": "1.0.0",
+  "description": "vue study",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "grace",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.1.10"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "style-loader": "^0.14.1",
+    "vue": "^2.1.10",
+    "vue-resource": "^1.2.1",
+    "vue-router": "^2.3.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
