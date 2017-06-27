@@ -67,7 +67,7 @@
 ### 进度条
 * [progress](https://github.com/usablica/progress.js)
 * [NProgress.js](http://ricostacruz.com/nprogress/)
-### 滚动加在
+### 滚动加载
 * [jScroll](https://github.com/pklauzinski/jscroll)
 ### 全屏滚动
 * [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js)
