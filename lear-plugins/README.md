@@ -77,6 +77,9 @@
 * []()
 ### 拖拽组件
 * [Draggabilly – 专注于拖拽功能的 JS 库](https://github.com/desandro/draggabilly)
+### 目录树插件
+* [zTree_v3 – jQuery Tree Plugin](https://github.com/zTree/zTree_v3/blob/master/demo/en/core/otherMouse.html)
+* [jstree – jQuery Tree Plugin](https://github.com/vakata/jstree)
 
 
 
