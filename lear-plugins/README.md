@@ -74,7 +74,7 @@
 ### 分屏滚动
 * [multiscroll.js](https://github.com/alvarotrigo/multiscroll.js)
 ### 视差滚动
-* []()
+* [greensock](https://greensock.com/)
 ### 拖拽组件
 * [Draggabilly – 专注于拖拽功能的 JS 库](https://github.com/desandro/draggabilly)
 ### 目录树插件
